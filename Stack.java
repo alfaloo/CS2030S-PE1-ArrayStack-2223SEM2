@@ -4,3 +4,11 @@
  *
  * @author A0000000X
  */
+
+interface Stack<T> {
+  public T pop();
+
+  public void push(T item);
+
+  public int getStackSize();
+}
